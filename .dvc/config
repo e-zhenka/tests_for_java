@@ -1,7 +1,1 @@
-[core]
-    remote = myremote
-['remote "myremote"']
-    url = http://176.99.135.124/
-    auth = basic
-    user = your_username
-    password = your_password
+
