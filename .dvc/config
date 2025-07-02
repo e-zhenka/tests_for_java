@@ -1,1 +1,7 @@
-
+[core]
+    remote = myremote
+['remote "myremote"']
+    url = s3://sbt-sast
+    endpointurl = https://api.immers.cloud:8080
+    access_key_id = KJA0Y8DF00I32ZZ5J9L6
+    secret_access_key = RqhrJT98WRdp2MDjpawDQsEX9A5GOIdbcKITaITd
