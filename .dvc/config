@@ -3,5 +3,5 @@
 ['remote "myremote"']
     url = s3://sbt-sast
     endpointurl = https://api.immers.cloud:8080
-    access_key_id = KJA0Y8DF00I32ZZ5J9L6
-    secret_access_key = RqhrJT98WRdp2MDjpawDQsEX9A5GOIdbcKITaITd
+    access_key_id = ${DVC_ACCESS_KEY_ID}  # Используем переменную окружения
+    secret_access_key = ${DVC_SECRET_ACCESS_KEY}
